@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#6f2942">
+  <title>10 meses de nós ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Great+Vibes&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="experience">
+    <header class="heading">
+      <p class="eyebrow">uma lembrança para guardar</p>
+      <h1>Dez meses <span>de nós</span></h1>
+      <p class="subtitle">Vire as páginas e reviva um pouquinho da nossa história.</p>
+    </header>
+
+    <section class="book-area" aria-label="Livro de memórias de dez meses de namoro">
+      <div class="book-shadow" aria-hidden="true"></div>
+      <div class="book" id="book" aria-live="polite">
+        <div class="book-spine" aria-hidden="true"></div>
+        <article class="sheet cover-sheet" data-page="0" aria-label="Capa do livro">
+          <div class="cover-face">
+            <div class="cover-ornament" aria-hidden="true">❧</div>
+            <p class="cover-kicker">uma história escrita a dois</p>
+            <h2>Nosso<br><span>livro</span></h2>
+            <div class="cover-heart" aria-hidden="true">♡</div>
+            <p class="cover-names">Robson <span>&</span> Nataly</p>
+            <p class="cover-date">10 meses de amor</p>
+            <span class="cover-hint">toque para abrir</span>
+          </div>
+          <div class="cover-inside" aria-hidden="true">
+            <span class="inside-heart">♡</span>
+            <p>Para a minha pessoa favorita</p>
+          </div>
+        </article>
+        <div id="pages" class="pages"></div>
+      </div>
+      <p class="book-caption">Feito com carinho, para guardar o que vivemos.</p>
+    </section>
+
+    <nav class="controls" aria-label="Navegação do livro">
+      <button class="nav-button" id="prevButton" type="button" aria-label="Página anterior" disabled>
+        <span aria-hidden="true">←</span><span class="button-label">Anterior</span>
+      </button>
+      <div class="page-status" aria-live="polite">
+        <span id="pageCounter">Capa</span>
+        <span class="progress-track" aria-hidden="true"><span id="progress"></span></span>
+      </div>
+      <button class="nav-button nav-next" id="nextButton" type="button" aria-label="Próxima página">
+        <span class="button-label">Próxima</span><span aria-hidden="true">→</span>
+      </button>
+    </nav>
+    <p class="mobile-tip">No celular, você também pode deslizar sobre o livro.</p>
+    <footer>Com amor, hoje e em todos os nossos capítulos. <span>♡</span></footer>
+  </main>
+</body>
+</html>
